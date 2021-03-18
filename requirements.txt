@@ -3,3 +3,16 @@ requests
 rsa
 bs4
 humanize
+pytz
+thrift
+gtts
+beautifulsoup4
+humanfriendly
+goslate
+wikipedia
+youtube_dl
+tweepy
+html5lib
+pafy
+timeago
+livejson
