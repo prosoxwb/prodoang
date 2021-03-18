@@ -2,3 +2,4 @@ akad
 requests
 rsa
 bs4
+humanize
