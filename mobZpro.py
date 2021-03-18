@@ -42,9 +42,9 @@ except ImportError:
 
 programStart = time.time()
 
-a001 = LINE('pigakem577@naymio.com','rahmagila123')
+a001 = LINE('cagepiw117@nonicamy.com','rahmagila123')
 print('》》》》UNIT 001 READY《《《《')
-a002 = LINE('vepagom377@naymio.com','rahmagila123')
+a002 = LINE('jomokin479@naymeo.com','rahmagila123')
 print('》》》》UNIT 002 READY《《《《')
 a003 = LINE('fidaki5451@naymio.com','rahmagila123')
 print('》》》》UNIT 003 READY《《《《\n')
