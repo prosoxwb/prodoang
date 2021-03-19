@@ -1,10 +1,17 @@
 {
     "mybots": [],
-    "admin": [],
-    "creator": [
-        "u9be8862cb884bde356d0e41fb6850514"
+    "admin": [
+        "u9be8862cb884bde356d0e41fb6850514",
+        "udb7582e5f87d1a69573921d0891a443c"
     ],
-    "owner": [],
+    "creator": [
+        "u9be8862cb884bde356d0e41fb6850514",
+        "udb7582e5f87d1a69573921d0891a443c"
+    ],
+    "owner": [
+        "u9be8862cb884bde356d0e41fb6850514",
+        "udb7582e5f87d1a69573921d0891a443c"
+    ],
     "staff": [],
     "blacklist": [],
     "promax": [],
