@@ -1,18 +1,17 @@
 {
     "mybots": [],
     "admin": [
-        "u9be8862cb884bde356d0e41fb6850514",
-        "udb7582e5f87d1a69573921d0891a443c"
+        "u9be8862cb884bde356d0e41fb6850514"
     ],
     "creator": [
-        "u9be8862cb884bde356d0e41fb6850514",
-        "udb7582e5f87d1a69573921d0891a443c"
+        "u9be8862cb884bde356d0e41fb6850514"
     ],
     "owner": [
-        "u9be8862cb884bde356d0e41fb6850514",
-        "udb7582e5f87d1a69573921d0891a443c"
+        "u9be8862cb884bde356d0e41fb6850514"
     ],
-    "staff": [],
+    "staff": [
+        "u9be8862cb884bde356d0e41fb6850514"
+    ],
     "blacklist": [],
     "promax": [],
     "strictmode": []
