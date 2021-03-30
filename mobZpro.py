@@ -1621,7 +1621,7 @@ async def mobanzu(op):
                                         pass
                         elif hlth.startswith("halo "):
                             if sender in creator or sender in owner or sender in admin:
-                                spl = hlth.replace("protect ","")
+                                spl = hlth.replace("halo ","")
                                 if spl == "om":
                                     if receiver in status["promax"]:
                                         hlth = "Group Protection Max"
