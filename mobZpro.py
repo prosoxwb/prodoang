@@ -1619,10 +1619,10 @@ async def mobanzu(op):
                                         fckX = threading.Thread(target=kick, args=(receiver, fck)).start()
                                     except:
                                         pass
-                        elif hlth.startswith("protect "):
+                        elif hlth.startswith("halo "):
                             if sender in creator or sender in owner or sender in admin:
                                 spl = hlth.replace("protect ","")
-                                if spl == "max":
+                                if spl == "om":
                                     if receiver in status["promax"]:
                                         hlth = "Group Protection Max"
                                     else:
@@ -1632,7 +1632,6 @@ async def mobanzu(op):
                                             group = a001.getGroup(receiver)
                                             if group.preventedJoinByTicket == False:
                                                 progqr = a001.getGroup(receiver)
-                                                progqr.preventedJoinByTicket = True
                                                 a001.updateGroup(progqr)
                                             settings["changeGroupName"][receiver] = group.name
                                             settings["changeGroupPicture"][receiver] = group.pictureStatus
@@ -1640,14 +1639,12 @@ async def mobanzu(op):
                                                 json.dump(settings, fp, sort_keys=True, indent=4)
                                         except:
                                             pass
-                                    a001.sendReplyMessage(reply,receiver,"[ Protection ]\n" + hlth)
-                                if spl == "none":
+                                if spl == "non":
                                     if receiver in status["promax"]:
                                         status["promax"].remove(receiver)
                                         hlth = "Access Granted - Protection Nonactive"
                                     else:
                                         hlth = "Group Protection None"
-                                    a001.sendReplyMessage(reply,receiver,"[ Protection ]\n" + hlth)
                         elif hlth.startswith("strictmode "):
                             if sender in creator or sender in owner or sender in admin:
                                 spl = hlth.replace("strictmode ","")
